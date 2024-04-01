@@ -1,0 +1,13 @@
+9. Palindrome Integer
+
+sudo code
+> logic
+--> Palindrome is same forward, same back (ex: 22, 121)
+--> Negative Integers false (ex: -121)
+
+> code
+--> if Negative Int return false
+--> toString() to use string methods
+--> while less than string.length
+--> if charAt(position) != charAt(length - position - 1) return false
+--> otherwise return true
